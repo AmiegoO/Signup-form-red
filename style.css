@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Poppins:wght@400;500;600;700&family=Red+Hat+Text:ital,wght@0,700;1,700&display=swap');
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+a{
+    color: hsl(0, 100%, 74%);
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    background-color: hsl(0, 100%, 74%);
+    background-image: url(./images/bg-intro-desktop.png);
+    min-height: 100vh;
+    
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    float: left;
+    width: 50%;
+    margin-left: 8%;
+    /* align-content: center; */
+}
+.main h1{
+    color:ivory;
+    font-weight: 700;
+    width: 60%;
+}
+.main p{
+    color: ivory;
+    text-align: left;
+    width: 80%;
+}
+.container .info p{
+    border: none;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow:5px 5px 20px 5px rgba(0,0,0,0.06);
+    background-color: hsl(248, 32%, 49%);
+    font-weight: 400;
+}
+.container p {
+    padding: 10px;
+    border-radius: 8px;
+    width: 80%;
+    font-weight: 400;
+    font-size: 16px;
+}
+.text p{
+    font-size: 12px;
+}
+.container{
+    float: right;
+    width: 50%;
+}
+form{
+    /* float: right; */
+    background-color: white;
+    color: dimgray;
+    box-sizing: border-box;
+    
+    border-radius: 8px;
+    /* border-right: 200px; */
+    width: 80%;
+    padding: 20px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    display: block;
+}
+#button{
+    background-color: hsl(154, 59%, 51%);
+    width: 90%;
+    box-sizing: border-box;
+    border-style: groove;
+    font-weight: 600;
+    padding: 10px;
+    border: none;
+    margin: 20px;
+    border-radius: 6px;
+    color: #fff;
+}
+
+input[type=text]  {
+    border-radius: 6px;
+    padding: 13px;
+    box-sizing:border-box;
+    margin: 20px;
+    width: 90%;
+    display: block;
+    border-style: groove;
+  }
+  input[type=password] {
+    border-radius: 6px;
+    padding: 13px;
+    box-sizing: border-box;
+    margin: 20px;
+    width: 90%;
+    display: block;
+    border-style: groove;
+  }
